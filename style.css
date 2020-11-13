@@ -29,7 +29,7 @@ div{
 
 #d1{
     background-color: black;
-    transition: all 6s ease-in 500ms;
+    transition: background-color 6s ease-in 500ms, width 6s ease-in 500ms, height 6s ease-in 500ms;
 }
 
 #d1:hover{
@@ -41,7 +41,7 @@ div{
 #d2{
     background-color: blue;
     font-size: 1rem;
-    transition: all 6s ease-in 500ms;
+    transition: background-color 6s ease-in 500ms, font-size 6s ease-in 500ms;
 }
 
 #d2:hover{
@@ -52,5 +52,6 @@ div{
 @media screen and (max-width: 650px){
     #d1, #d2{
         display: block;
+        width: 100%;
     }
 }
